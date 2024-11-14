@@ -4,7 +4,7 @@ itemType: Test Case
 itemTests: spec-sensor-module
 ---
 
-# ECG Data Acquisition and Transmission
+# Test Sensor Module (Markdown)
 
 To validate the Sensor Module's ability to accurately acquire, preprocess, and transmit data to the software subsystem.
 

@@ -4,7 +4,8 @@
  * b) The latest entered sensor reading is outdated according to the defined maximum allowable time interval.
 
  * @itemId:spec-sensor-reading-warning
- * @itemTitle:"Javascript code annotation"
+ * @itemTitle:"Sensor Reading Warning (Javascript)"
+ * @itemFulfills:CS-1,KD-20
  * @itemHasParent:spec-sensor-module
  */
 export function createReadingWarning() {
