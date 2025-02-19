@@ -5,7 +5,7 @@
     "build": "next build",
     "start": "next start",
     "test": "jest --watch",
-    "test:ci": "jest --ci",
+    "test:ci": "jest --ci --coverage",
     "test:e2e": "cucumber-js --format progress",
     "test:unit-integration-ci": "JEST_JUNIT_OUTPUT_DIR=test-results JEST_JUNIT_OUTPUT_NAME=jest-junit.xml jest --watchAll=false --testResultsProcessor=\"jest-junit\""
   },
