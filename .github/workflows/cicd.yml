@@ -26,10 +26,20 @@ jobs:
       - name: Install dependencies
         if: steps.cache.outputs.cache-hit != 'true'
         run: cd js-src && npm install
-      - name: Run unit and integration tests
+      - name: Run unit and integration tests 
         run: cd js-src && npm run test:unit-integration-ci
       - name: Run end-to-end tests
         run: cd js-src && npm run test:e2e
+      - name: Run Jest Code Coverage 
+        run: cd js-src && npm run test -- --coverage 
+      - name: Upload coverage report 
+        uses: actions/upload-artifact@v4
+        if: success() || failure()
+        with:
+          name: coverage-report
+          path: js-src/coverage/
+          retention-days: 7
+          if-no-files-found: error
       - name: Upload test results
         uses: actions/upload-artifact@v4
         if: success() || failure()
