@@ -37,7 +37,7 @@ jobs:
         if: success() || failure()
         with:
           name: coverage-report
-          path: js-src/coverage/
+          path: js-src/lcov-report/index.html
           retention-days: 7
           if-no-files-found: error
       - name: Upload test results
