@@ -59,6 +59,7 @@ jobs:
           build-name: ci-js
           test-junit-path: js-src/test-results/jest-junit.xml
           test-cucumber-path: js-src/test-results/cucumber-report.json
+          coverage-lcov-path: js-src/lcov.info 
 
   test-java:
     runs-on: ubuntu-latest
