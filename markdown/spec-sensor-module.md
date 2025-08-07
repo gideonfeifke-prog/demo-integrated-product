@@ -15,5 +15,6 @@ The Sensor Module software for the device is responsible for the continuous and 
 itemId: other-md-req
 itemType: Requirement
 ---
+
 # Other Requirement
 This is another requirement in the same markdown file
