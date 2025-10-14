@@ -1,6 +1,6 @@
 Feature: Sensor module
 
-  @tests:KD-15
+  @tests:spec-sensor-reading-warning
   Scenario: Test Sensor Reading Warning (Cucumber)
     Given Application is open
     When Data of 8 is entered
