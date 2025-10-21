@@ -7,3 +7,4 @@ itemFulfills: CS-1,CS-2,CS-3,KD-11
 # Sensor Module (Markdown)
 
 The Sensor Module software for the device is responsible for the continuous and accurate acquisition of data, preprocessing this data, and transmitting it to the software subsystem for real-time analysis.
+<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/36d7b027-d051-4daa-ac7f-d312a2b2afe0" />
