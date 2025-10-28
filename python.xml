@@ -1,7 +1,11 @@
 <testsuites>
   <testsuite name="Suite 1">
-      <testcase name="Test 1" tested-item-id="spec-sensor-module" />
-      <testcase name="Test 2" assertions="spec-sensor-module" />
-      <testcase name="Test 3 @tests:spec-sensor-module" />
+      <testcase name="Test 1 - using repo id" tested-item-id="spec-sensor-module" />
+      <testcase name="Test 2 - using repo id" assertions="spec-sensor-module" />
+      <testcase name="Test 3 - using repo id @tests:spec-sensor-module" />
+      <testcase name="Test 4 - using ketryx id" tested-item-id="KXITM396XNXZJFC88TSFEDTBHSDJH98" />
+      <testcase name="Test 5 - using ketyrx id" assertions="KXITM396XNXZJFC88TSFEDTBHSDJH98" />
+      <testcase name="Test 6 - using ketryx id @tests:KXITM396XNXZJFC88TSFEDTBHSDJH98" />
+
   </testsuite>
 </testsuites>
