@@ -1,5 +1,7 @@
-<testcase name="Test 1">
-    <properties>
-        <property name="tested-item-id" value="spec-sensor-module" />
-    </properties>
-</testcase>
+<testsuites>
+  <testsuite name="Suite 1">
+      <testcase name="Test 1" tested-item-id="spec-sensor-module" />
+      <testcase name="Test 2" assertions="spec-sensor-module" />
+      <testcase name="Test 3 @tests:spec-sensor-module" />
+  </testsuite>
+</testsuites>
