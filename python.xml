@@ -1,5 +1,5 @@
 <testcase name="Test 1">
     <properties>
-        <property name="tested-item-id" value="KXITM396XNXZJFC88TSFEDTBHSDJH98" />
+        <property name="tested-item-id" value="spec-sensor-module" />
     </properties>
 </testcase>
