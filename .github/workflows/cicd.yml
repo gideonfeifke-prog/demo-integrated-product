@@ -184,7 +184,7 @@ jobs:
         if: success() || failure()
         with:
           name: test-results-python
-          path: python.xml
+          path: python2.xml
           retention-days: 7
           if-no-files-found: error
 
