@@ -4,7 +4,7 @@ package com.ketryx.sample;
  * Utility class to read sensor.
  *
  * @itemId:SensorReading
- * @itemTitle:"Sensor Reading (Java)"
+ * @itemTitle:"Sensor replacement reminder settings toggle"
  * @itemHasParent:spec-sensor-module
  * @itemFulfills:APP-28
  */
