@@ -8,7 +8,7 @@ public class SensorReadingTest {
     /**
      * Tests that sensor is read correctly.
      * @tests:SensorReading
-     * @itemTitle:"Test Sensor Reading (Java)"
+     * @itemTitle:"Sensor replacement reminder settings toggle verification"
      */
     @Test
     public void sensorReadingTest() {
