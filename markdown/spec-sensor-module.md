@@ -1,7 +1,7 @@
 ---
-itemId: spec-sensor-module
+itemId: Sensor age indicator UI component
 itemType: Software Item Spec
-itemFulfills: CS-1,CS-2,CS-3,KD-11
+itemFulfills:APP-28
 ---
 
 # Sensor Module (Markdown)
