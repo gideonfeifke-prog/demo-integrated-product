@@ -1,7 +1,6 @@
 ---
 itemId: Sensor age indicator UI component
 itemType: Software Item Spec
-itemFulfills:APP-28
 ---
 
 # Sensor Module (Markdown)
